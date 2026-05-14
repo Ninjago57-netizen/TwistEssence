@@ -1,0 +1,13 @@
+name: TwistEssence
+version: 1.0.0
+main: fr.twist.essence.TwistEssencePlugin
+api-version: "1.21"
+
+commands:
+  essence:
+    description: GÃ©rer les essences
+    usage: /essence
+
+permissions:
+  twistessence.admin:
+    default: op
